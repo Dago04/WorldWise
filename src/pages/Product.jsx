@@ -1,7 +1,11 @@
+import { PageNav } from "../components/PageNav"
 
 
 export const Product = () => {
     return (
-        <div>Product</div>
+        <div>
+            <PageNav />
+            <h1>Producto</h1>
+        </div>
     )
 }
